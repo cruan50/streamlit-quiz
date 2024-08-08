@@ -82,7 +82,6 @@ def main():
             st.session_state.selected_questions = random.sample(questions, 10)
             st.session_state.responses = [None] * 10
             st.session_state.submitted = False
-            st.experimental_rerun()
 
     st.write("Desenvolvido por [CR Engenharia](https://www.instagram.com/cr_engenhariaaa/)")
 
